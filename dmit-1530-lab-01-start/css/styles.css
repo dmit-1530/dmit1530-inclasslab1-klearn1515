@@ -11,4 +11,73 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--french-gray);
+    color: var(--night);
+}
+
+:root{
+    --night:            #182222;
+    --dark-slate-gray:  #405B5B;
+    --french-gray:      #e2dfe7;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4rem;
+    color:var(--dark-slate-gray);
+    margin-top: 3rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    border: 3px solid var(--dark-slate-gray);
+    border-radius: 12px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25rem;
+    color: var(--dark-slate-gray);
+    padding: 1rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.25rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--dark-slate-gray);
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.flex-box{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.flex-box img{
+    width: 15rem;
+    height: 20rem;
+}
+section{
+    margin-bottom: 2rem;
+}
+
+footer{
+    background-color: var(--night);
+    color: var(--dark-slate-gray);
 }
